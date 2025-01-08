@@ -1,0 +1,1 @@
+This error occurs when you try to access a property of a null or undefined object in React Native.  For example, if you have a state variable `user` that might not be loaded yet, and you try to access `user.name` before `user` has a value, you'll get a TypeError.  This often happens when fetching data asynchronously.
